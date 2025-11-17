@@ -24,14 +24,3 @@ updates:
     labels:
       - "ci"
       - "automation"
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "05:30"
-      timezone: "Asia/Kolkata"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-      - "node"
